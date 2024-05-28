@@ -1,0 +1,43 @@
+{
+	"Apps": "Uygulama",
+	"Sales": "Satış",
+	"Sales Dashboard": "Satış Paneli",
+	"Products": "Ürünler",
+	"Products List": "Ürünler Listesi",
+	"Category": "Kategori",
+	"Category List": "Kategori Listesi",
+	"Profile Page": "Profil Sayfası",
+	"AI": "AI",
+	"AI Dashboard": "AI Paneli",
+	"Chat Pages": "Chat Sayfaları",
+	"Photo Editing": "Fotoğraf Düzenleme",
+	"Video Generation": "Video Oluşturma",
+	"Audio Generation": "Audio Oluşturma",
+	"Code Generation": "Kod Oluşturma",
+	"CRM": "CRM",
+	"CRM Dashboard": "CRM Paneli",
+	"Customers": "Müşteriler",
+	"Customers List": "Müşteri Listesi",
+	"Roles": "Roller",
+	"Role List": "Rol Listesi",
+	"Project": "Proje",
+	"Projects Dashboard": "Proje Paneli",
+	"Education": "Eğitim",
+	"Reservation": "Rezervasyon",
+	"Mail": "Mail",
+	"Chat": "Chat",
+	"DemoPages": "Demo Sayfalar",
+	"item": {
+		"itemA": "Öğe A",
+		"itemB": "Öğe B"
+	},
+	"theme": {
+		"dark": "Koyu",
+		"light": "Açık",
+		"system": "Sistem"
+	},
+	"Day": "Gün",
+	"Week": "Hafta",
+	"Month": "Ay",
+	"List": "Liste"
+}

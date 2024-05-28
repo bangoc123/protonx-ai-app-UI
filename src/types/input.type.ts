@@ -1,0 +1,17 @@
+export type TInputTypes =
+	| 'color'
+	| 'date'
+	| 'datetime-local'
+	| 'email'
+	| 'file'
+	| 'hidden'
+	| 'month'
+	| 'number'
+	| 'password'
+	| 'range'
+	| 'search'
+	| 'tel'
+	| 'text'
+	| 'time'
+	| 'url'
+	| 'week';

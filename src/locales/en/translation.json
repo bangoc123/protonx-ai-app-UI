@@ -1,0 +1,42 @@
+{
+	"Sales": "Sales",
+	"Sales Dashboard": "Sales Dashboard",
+	"Products": "Products",
+	"Products List": "Products List",
+	"Category": "Category",
+	"Category List": "Category List",
+	"Profile Page": "Profile Page",
+	"AI": "AI",
+	"AI Dashboard": "AI Dashboard",
+	"Chat Pages": "Chat Pages",
+	"Photo Editing": "Photo Editing",
+	"Video Generation": "Video Generation",
+	"Audio Generation": "Audio Generation",
+	"Code Generation": "Code Generation",
+	"CRM": "CRM",
+	"CRM Dashboard": "CRM Dashboard",
+	"Customers": "Customers",
+	"Customers List": "Customers List",
+	"Roles": "Roles",
+	"Role List": "Role List",
+	"Project": "Project",
+	"Projects Dashboard": "Projects Dashboard",
+	"Education": "Education",
+	"Reservation": "Reservation",
+	"Mail": "Mail",
+	"Chat": "Chat",
+	"DemoPages": "Demo pages TEST",
+	"item": {
+		"itemA": "Item A",
+		"itemB": "Item B"
+	},
+	"theme": {
+		"dark": "Dark",
+		"light": "Light",
+		"system": "System"
+	},
+	"Day": "Day",
+	"Week": "Week",
+	"Month": "Month",
+	"List": "List"
+}

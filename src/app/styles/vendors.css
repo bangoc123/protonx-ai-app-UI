@@ -1,0 +1,57 @@
+/* react-date-range */
+
+.rdrCalendarWrapper,
+.rdrDefinedRangesWrapper,
+.rdrStaticRange,
+.rdrDateDisplayWrapper {
+	@apply border-zinc-300/25 bg-transparent dark:border-zinc-800/50 !important;
+}
+
+.rdrDayPassive .rdrDayNumber span {
+	@apply text-zinc-500/50 !important;
+}
+
+.rdrDayNumber span {
+	@apply text-zinc-800 dark:text-zinc-200;
+}
+
+.rdrDefinedRangesWrapper {
+	@apply border-zinc-300/25 dark:border-zinc-800/50;
+}
+
+.rdrNextPrevButton {
+	@apply bg-transparent hover:bg-zinc-100 hover:dark:bg-zinc-950 !important;
+}
+
+.rdrPprevButton i {
+	@apply border-b-transparent border-l-transparent border-r-zinc-800 border-t-transparent dark:border-r-zinc-200 !important;
+}
+
+.rdrNextButton i {
+	@apply border-b-transparent border-l-zinc-800 border-r-transparent border-t-transparent dark:border-l-zinc-200 !important;
+}
+
+.rdrMonthAndYearPickers select:hover {
+	@apply bg-zinc-100 dark:bg-zinc-950;
+}
+
+.rdrMonthAndYearPickers select {
+	@apply bg-[url('/src/assets/required/chevron-down.svg')] bg-[length:1.2rem] bg-no-repeat text-zinc-800 dark:bg-[url('/src/assets/required/dark:chevron-down.svg')] dark:text-zinc-200;
+}
+
+.rdrStaticRange:hover .rdrStaticRangeLabel,
+.rdrStaticRange:focus .rdrStaticRangeLabel {
+	@apply bg-zinc-100 dark:bg-zinc-950;
+}
+
+.rdrInputRangeInput {
+	@apply appearance-none rounded-lg border-2 border-zinc-100 bg-zinc-100 px-1.5 py-1.5 text-base text-black outline-0 transition-all duration-300 ease-in-out hover:border-blue-500 focus:border-zinc-300 focus:bg-transparent dark:border-zinc-800 dark:bg-zinc-800 dark:text-white dark:hover:border-blue-500 dark:focus:border-zinc-800 dark:focus:bg-transparent;
+}
+
+.rdrDateInput.rdrDateDisplayItem {
+	@apply appearance-none rounded-lg border-2 bg-zinc-100 text-base shadow-none outline-0 transition-all duration-300 ease-in-out focus:bg-transparent dark:bg-zinc-800 dark:focus:bg-transparent;
+}
+
+.rdrDateInput.rdrDateDisplayItem.rdrDateDisplayItemActive {
+	@apply bg-transparent dark:bg-transparent;
+}

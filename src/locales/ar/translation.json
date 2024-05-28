@@ -1,0 +1,43 @@
+{
+	"Apps": "تطبيقات",
+	"Sales": "مبيعات",
+	"Sales Dashboard": "لوحة المبيعات",
+	"Products": "منتجات",
+	"Products List": "قائمة المنتجات",
+	"Category": "فئة",
+	"Category List": "قائمة الفئات",
+	"Profile Page": "الصفحة الشخصية",
+	"AI": "شاملة الكل",
+	"AI Dashboard": "لوحة تحكم بالذكاء الاصطناعي",
+	"Chat Pages": "صفحات الدردشة",
+	"Photo Editing": "تحرير الصور",
+	"Video Generation": "توليد الفيديو",
+	"Audio Generation": "توليد الصوت",
+	"Code Generation": "رمز الجيل",
+	"CRM": "إدارة علاقات العملاء",
+	"CRM Dashboard": "لوحة تحكم إدارة علاقات العملاء",
+	"Customers": "عملاء",
+	"Customers List": "قائمة العملاء",
+	"Roles": "الأدوار",
+	"Role List": "قائمة الأدوار",
+	"Project": "مشروع",
+	"Projects Dashboard": "لوحة تحكم المشاريع",
+	"Education": "تعليم",
+	"Reservation": "حجز",
+	"Mail": "بريد",
+	"Chat": "محادثة",
+	"DemoPages": "الصفحات التجريبية",
+	"item": {
+		"itemA": "البند أ",
+		"itemB": "البند ب"
+	},
+	"theme": {
+		"dark": "ظلام",
+		"light": "نور",
+		"system": "نظام"
+	},
+	"Day": "يوم",
+	"Week": "أسبوع",
+	"Month": "شهر",
+	"List": "قائمة"
+}

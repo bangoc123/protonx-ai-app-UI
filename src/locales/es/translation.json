@@ -1,0 +1,43 @@
+{
+	"Apps": "Aplicaciones",
+	"Sales": "Ventas",
+	"Sales Dashboard": "Panel de Ventas",
+	"Products": "Productos",
+	"Products List": "Lista de Productos",
+	"Category": "Categoría",
+	"Category List": "Lista de Categoría",
+	"Profile Page": "Página de Perfil",
+	"AI": "AI",
+	"AI Dashboard": "Panel de Control de AI",
+	"Chat Pages": "Páginas de Chat",
+	"Photo Editing": "Edición de Fotos",
+	"Video Generation": "Generación de Vídeo",
+	"Audio Generation": "Generación de Audio",
+	"Code Generation": "Generación de Codigo",
+	"CRM": "CRM",
+	"CRM Dashboard": "Panel de control de CRM",
+	"Customers": "Clientes",
+	"Customers List": "Lista de Clientes",
+	"Roles": "Roles",
+	"Role List": "Lista de Roles",
+	"Project": "Proyecto",
+	"Projects Dashboard": "Panel de Proyectos",
+	"Education": "Educación",
+	"Reservation": "Reserva",
+	"Mail": "Correo",
+	"Chat": "Charlar",
+	"DemoPages": "Demo pages",
+	"item": {
+		"itemA": "Item A",
+		"itemB": "Item B"
+	},
+	"theme": {
+		"dark": "Oscuro",
+		"light": "Ligero",
+		"system": "Sistema"
+	},
+	"Day": "Day",
+	"Week": "Week",
+	"Month": "Month",
+	"List": "List"
+}
