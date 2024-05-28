@@ -2,6 +2,8 @@
 
 [![ProtonX | AI UI Demos](https://storage.googleapis.com/mle-courses-prod/users/61b6fa1ba83a7e37c8309756/private-files/e5562ba0-daf0-11ee-b551-db727fbed0f6-Screen_Shot_2024_03_05_at_20.00.04.png)](https://fyr.omtanke.studio)
 
+[Live Demo](https://protonx.io/demos)
+
 This is a reusable UI that we can use for your AI project. Tutorials will be available soon on the [ProtonX YouTube](https://www.youtube.com/@ProtonX) channel and [our AI learning platform](https://protonx.io/).
 
 Some applications available
