@@ -4,7 +4,7 @@
 
 [Live Demo](https://protonx.io/demos)
 
-This is a reusable UI that we can use for your AI project. Tutorials will be available soon on the [ProtonX YouTube](https://www.youtube.com/@ProtonX) channel and [our AI learning platform](https://protonx.io/).
+This is a reusable UI that you can use for your AI project. Tutorials will be available soon on the [ProtonX YouTube](https://www.youtube.com/@ProtonX) channel and [our AI learning platform](https://protonx.io/).
 
 Some applications available
 
