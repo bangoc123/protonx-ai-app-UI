@@ -61,6 +61,10 @@ Inspects the project according to Prettier rules and corrects them according to 
 
 Prepares svg format icons in the `SvgIcons` folder for use in the project. Names the icon's name in `PascalCase` format.
 
+## Backend
+
+This app will call a backend. You also need to set up a backend using [this project](https://github.com/bangoc123/protonx-ai-backend).
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
