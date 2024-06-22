@@ -74,6 +74,12 @@ export const appPages = {
 						text: 'Chat Bot',
 						icon: 'DuoChat6',
 					},
+					ragPage: {
+						id: 'chatBotRagPage',
+						to: '/ai/chat/rag-chat-bot',
+						text: 'Chat Bot with RAG',
+						icon: 'DuoChat5',
+					},
 					smartHr: {
 						id: 'smartHr',
 						to: '/ai/chat/smart-hr',

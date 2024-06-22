@@ -114,6 +114,25 @@ const AiDashboardClient = () => {
 					</div>
 					<div className='col-span-12 md:col-span-6 xl:col-span-3'>
 						<Link
+							href={`${appPages?.aiAppPages?.subPages?.chatPages?.subPages?.ragPage?.to}`}>
+							<Card>
+								<CardBody>
+									<div className='flex items-center gap-4'>
+										<div className='flex-shrink-0 rounded-lg bg-emerald-500/25 p-6'>
+											<Icon icon='DuoChat6' size='text-6xl' color='emerald' />
+										</div>
+										<div className='grow'>
+											<div className='text-2xl font-semibold'>
+												Chat Bot using RAG
+											</div>
+										</div>
+									</div>
+								</CardBody>
+							</Card>
+						</Link>
+					</div>
+					<div className='col-span-12 md:col-span-6 xl:col-span-3'>
+						<Link
 							href={`${appPages?.aiAppPages?.subPages?.chatPages?.subPages?.chatBotPage?.to}`}>
 							<Card>
 								<CardBody>

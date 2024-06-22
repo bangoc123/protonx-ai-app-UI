@@ -112,6 +112,9 @@ const DefaultAsideTemplate = () => {
 								{...appPages?.aiAppPages?.subPages?.chatPages?.subPages
 									?.speechRecognitionPage}
 							/>
+							<NavItem
+								{...appPages?.aiAppPages?.subPages?.chatPages?.subPages?.ragPage}
+							/>
 							{/* <NavItem {...appPages.aiAppPages.subPages.chatPages.subPages.codePage}>
 								<Badge
 									variant='outline'
