@@ -50,7 +50,7 @@ const ChatBotClient = () => {
 				]);
 				postQuestionsApiCall({
 					dataToPost: {
-						questions: [
+						messages: [
 							...listQuestions,
 							{
 								role: USER,
