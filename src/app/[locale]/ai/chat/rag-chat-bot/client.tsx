@@ -19,10 +19,14 @@ import Subheader, { SubheaderLeft, SubheaderRight } from '@/components/layouts/S
 const ChatBotClient = () => {
 	const [listQuestions, setListQuestions] = useState([
 		{
-			role: SYSTEM,
-			content: 'Xin chào. Tôi là shop điện thoại [ABC], bạn cần chúng tôi tư vấn về sản phẩm gì?',
+			role: "model",
+			parts: [
+				{
+					text: 'Xin chào. Tôi là shop điện thoại [ABC], bạn cần chúng tôi tư vấn về sản phẩm gì?',
+				}
+			]
 		},
-	] as IChat[]);
+	] as GoogleChat[]);
 
 	const [askGptApiStatus, setAskGptApiStatus] = useState(CREATED);
 	const stopGeneratingRef = useRef(false);
@@ -46,21 +50,32 @@ const ChatBotClient = () => {
 					...listQuestions,
 					{
 						role: USER,
-						content: question,
+						parts: [
+							{
+								text: question,
+							}
+						],
 					},
 				]);
 				postRAGQuestionsApiCall({
-					dataToPost: {
-						role: USER,
-						content: question,
-					},
+					dataToPost: [
+						...listQuestions,
+						{
+							role: USER,
+							parts: [
+								{
+									text: question,
+								}
+							],
+						},
+					],
 				})
 					.then((res) => {
 						if (res?.status === 200) {
 							setAskGptApiStatus(SUCCESSFUL);
 							if (!stopGeneratingRef.current) {
 								setListQuestions((prev) => {
-									return [...prev, res?.data] as IChat[];
+									return [...prev, res?.data] as GoogleChat[];
 								});
 							}
 						}
@@ -74,7 +89,7 @@ const ChatBotClient = () => {
 		}
 	};
 
-	const generateChat = (questions: IChat[]) => {
+	const generateChat = (questions: GoogleChat[]) => {
 		let content = <div />;
 		if (questions && questions?.length > 0) {
 			content = (
@@ -82,10 +97,10 @@ const ChatBotClient = () => {
 					{questions?.map((question, index) => {
 						return (
 							<AIChatItemContainerCommon
-								key={question?.content}
-								content={question?.content}
+								key={question?.parts?.[0].text}
+								content={question?.parts?.[0].text}
 								userName={question?.role === USER ? 'You' : 'AI'}
-								isAnswer={question?.role === SYSTEM || question?.role === ASSISTANT}
+								isAnswer={question?.role === "model" || question?.role === "model"}
 							/>
 						);
 					})}
@@ -135,8 +150,13 @@ const ChatBotClient = () => {
 						onClick={() =>
 							setListQuestions([
 								{
-									role: SYSTEM,
-									content: 'Bạn cần tôi giúp gì?',
+									role: "model",
+									parts: [
+										{
+											text: 'Bạn cần tôi giúp gì?',
+										}
+									],
+									
 								},
 							])
 						}
