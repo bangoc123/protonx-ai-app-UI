@@ -97,6 +97,9 @@ const DefaultAsideTemplate = () => {
 							<NavItem
 								{...appPages.aiAppPages.subPages.chatPages.subPages.photoPage}
 							/>
+							<NavItem
+								{...appPages.aiAppPages.subPages.chatPages.subPages.photoDrawPage}
+							/>
 							{/* <NavItem {...appPages.aiAppPages.subPages.chatPages.subPages.videoPage}>
 								<Badge
 									variant='outline'

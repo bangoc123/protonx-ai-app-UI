@@ -142,7 +142,7 @@ const ChatBotClient = () => {
 		<PageWrapper>
 			<Subheader>
 				<SubheaderLeft>
-					<img src='https://storage.googleapis.com/mle-courses-prod/users/61b869ca9c3c5e00292bb42d/private-files/7a914790-2a01-11ef-8393-319a26aa84a3-unnamed.png' width="150" />
+					<img src='https://storage.googleapis.com/protonx-cdn/IOExtended2024-logos-07%20(1).png' width="150" />
 				</SubheaderLeft>
 				<SubheaderRight>
 					<Button

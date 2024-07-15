@@ -44,6 +44,12 @@ export const appPages = {
 						text: 'Photo Editing',
 						icon: 'HeroPhoto',
 					},
+					photoDrawPage: {
+						id: 'SketchToImage',
+						to: '/ai/chat/sketch-to-image',
+						text: 'Sketch to Image',
+						icon: 'HeroPhoto',
+					},
 					videoPage: {
 						id: 'videoPage',
 						to: '/ai/chat/video',

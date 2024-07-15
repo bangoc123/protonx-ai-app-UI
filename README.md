@@ -12,6 +12,10 @@ Some applications available
 - Image Generation
 - Audio Generation
 - Code Generation
+- Sketch to Image
+- Chatbot using RAG
+
+<img src="https://storage.googleapis.com/protonx-cdn/Screen%20Shot%202024-07-15%20at%2011.54.18.png">
 
 <img src="https://storage.googleapis.com/mle-courses-prod/users/61b6fa1ba83a7e37c8309756/private-files/dc832af0-dc67-11ee-8d67-a3f51c84003e-Screen_Shot_2024_03_07_at_16.48.18.png" width=600 > 
 
