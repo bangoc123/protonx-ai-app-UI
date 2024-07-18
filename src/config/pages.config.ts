@@ -50,6 +50,12 @@ export const appPages = {
 						text: 'Sketch to Image',
 						icon: 'HeroPhoto',
 					},
+					replaceObject: {
+						id: 'ReplaceObject',
+						to: '/ai/chat/replace-object',
+						text: 'Object Replacement',
+						icon: 'HeroPhoto',
+					},
 					videoPage: {
 						id: 'videoPage',
 						to: '/ai/chat/video',

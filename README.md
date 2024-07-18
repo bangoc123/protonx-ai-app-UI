@@ -14,12 +14,25 @@ Some applications available
 - Code Generation
 - Sketch to Image
 - Chatbot using RAG
+- Inplace Edit
 
+
+### Sketch to Image
 <img src="https://storage.googleapis.com/protonx-cdn/Screen%20Shot%202024-07-15%20at%2011.54.18.png">
 
+### Inplace Edit
+<img src="https://storage.googleapis.com/mle-courses-prod/users/61b6fa1ba83a7e37c8309756/private-files/697e85f0-44df-11ef-bf69-71eafa46c86b-Screen_Shot_2024_07_18_at_15.26.02.png" width=600>
+
+### Chatbot 
 <img src="https://storage.googleapis.com/mle-courses-prod/users/61b6fa1ba83a7e37c8309756/private-files/dc832af0-dc67-11ee-8d67-a3f51c84003e-Screen_Shot_2024_03_07_at_16.48.18.png" width=600 > 
 
+### Audio Generation
+
 <img src="https://storage.googleapis.com/mle-courses-prod/users/61b6fa1ba83a7e37c8309756/private-files/2a899fe0-daf1-11ee-b2fe-853e9dc23096-Screen_Shot_2024_03_05_at_20.00.47.png" width=600>
+
+### Chatbot using RAG
+
+<img src="https://camo.githubusercontent.com/c46d4be2eecc868d73d4e7e0a26cd1ba54473f2f54551801da1fde7b1a2f62c2/68747470733a2f2f73746f726167652e676f6f676c65617069732e636f6d2f6d6c652d636f75727365732d70726f642f75736572732f3631623666613162613833613765333763383330393735362f707269766174652d66696c65732f33656662363035302d333663612d313165662d613963352d3533396566346661313162612d53637265656e5f53686f745f323032345f30365f33305f61745f31362e35372e31312e706e67" width=600>
 
 # Getting Started with Create React App
 
