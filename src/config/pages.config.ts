@@ -56,6 +56,12 @@ export const appPages = {
 						text: 'Object Replacement',
 						icon: 'HeroPhoto',
 					},
+					segementInpaint: {
+						id: 'SegementInpaint',
+						to: '/ai/chat/segment-inpaint',
+						text: 'Segmentation + Inpaint',
+						icon: 'HeroPhoto',
+					},
 					videoPage: {
 						id: 'videoPage',
 						to: '/ai/chat/video',
