@@ -137,6 +137,10 @@ const DefaultAsideTemplate = () => {
 									?.chatBotPage}
 							/>
 							<NavItem
+								{...appPages?.aiAppPages?.subPages?.chatPages?.subPages
+									?.langChainChat}
+							/>
+							<NavItem
 								{...appPages?.aiAppPages?.subPages?.chatPages?.subPages?.smartHr}
 							/>
 						</NavCollapse>

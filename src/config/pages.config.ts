@@ -92,6 +92,12 @@ export const appPages = {
 						text: 'Chat Bot',
 						icon: 'DuoChat6',
 					},
+					langChainChat: {
+						id: 'langChainChat',
+						to: '/ai/chat/lang-chain-chat',
+						text: 'LangChain Chat',
+						icon: 'DuoChat6',
+					},
 					ragPage: {
 						id: 'chatBotRagPage',
 						to: '/ai/chat/rag-chat-bot',
