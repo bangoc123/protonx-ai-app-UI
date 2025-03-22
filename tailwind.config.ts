@@ -10,7 +10,7 @@ const config: Config = {
 			},
 			backgroundImage: {
 				chevronDown: '/src/assets/required/chevron-down.svg',
-				chevronDownDark: '/src/assets/required/dark:chevron-down.svg',
+				chevronDownDark: '/src/assets/required/dark-chevron-down.svg',
 			},
 			transitionProperty: {
 				margin: 'margin',

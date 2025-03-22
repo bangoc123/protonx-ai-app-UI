@@ -36,7 +36,7 @@
 }
 
 .rdrMonthAndYearPickers select {
-	@apply bg-[url('/src/assets/required/chevron-down.svg')] bg-[length:1.2rem] bg-no-repeat text-zinc-800 dark:bg-[url('/src/assets/required/dark:chevron-down.svg')] dark:text-zinc-200;
+	@apply bg-[url('/src/assets/required/chevron-down.svg')] bg-[length:1.2rem] bg-no-repeat text-zinc-800 dark:bg-[url('/src/assets/required/dark-chevron-down.svg')] dark:text-zinc-200;
 }
 
 .rdrStaticRange:hover .rdrStaticRangeLabel,
